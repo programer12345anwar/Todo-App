@@ -12,7 +12,7 @@ const GetTodos = ({ todos, setTodos }) => {
       {todos.map((task, index) => (
         <div
           key={index}
-          className="bg-gray-300 rounded-md px-3 py-2 text-gray-800 font-bold flex justify-between items-center"
+          className="bg-gray-300 rounded-md px-3 py-2 text-gray-800 font-medium flex justify-between items-center"
         >
           <h1 className="text-xl">{task.name}</h1>
           <button
