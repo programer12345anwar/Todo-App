@@ -17,6 +17,7 @@ function App() {
   }, []); //dependency array empty
 
   return (
+    
     <div className="w-[60%] mx-auto my-8">
       <h1 className="text-3xl font-bold text-center">To Do Application</h1>
       <AddToDo todos={todos} setTodos={setTodos} />

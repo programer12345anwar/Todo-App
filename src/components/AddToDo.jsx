@@ -27,7 +27,7 @@ const AddToDo = ({ todos, setTodos }) => {
   };
 
   return (
-    <div className="flex flex-row justify-center items-center my-4 gap-2">
+    <div className="flex flex-row justify-center items-center my-4 gap-1.5 w-full ">
       <input
         value={task}
         onChange={(e) => setTask(e.target.value)}
